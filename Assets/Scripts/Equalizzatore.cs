@@ -31,6 +31,7 @@ public class Equalizzatore : MonoBehaviour {
 	//public float numberOfObjects;
 	//public int hight = 30;
 	public Material prova;
+    public float[] spectrum;
 
 	void Awake()
 	{
@@ -105,7 +106,7 @@ public class Equalizzatore : MonoBehaviour {
 	{
 
 		int GrandezzaVettore = vettore.Length;
-		float[] spectrum = AudioListener.GetSpectrumData (1024, 0, FFTWindow.Hamming);
+		spectrum = AudioListener.GetSpectrumData (1024, 0, FFTWindow.Hamming);
 
 		for (int j = 0; j < GrandezzaVettore; j = j+gridX) 
 		{

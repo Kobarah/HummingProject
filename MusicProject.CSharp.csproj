@@ -78,6 +78,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Electricity\Scripts\Enemies.cs" />
     <Compile Include="Assets\Electricity\Scripts\LightningBolt.cs" />
     <Compile Include="Assets\Electricity\Scripts\PlayerController.cs" />
     <Compile Include="Assets\MassSpringSystem\Assets\Scripts\SpringSystem\MassSpawner.cs" />

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - cubes
   - land
+  - enemy
   layers:
   - Default
   - TransparentFX
